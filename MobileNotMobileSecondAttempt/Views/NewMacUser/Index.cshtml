@@ -1,0 +1,29 @@
+﻿<div>
+    <a href="@Url.Content("~/Home/Index")">
+        <button>Go Home</button>
+    </a>
+</div>
+
+<form method="post" action="/NewMacUser/Index">
+    <div>
+        <label for="Mac">MAC Address</label>
+        <input type="text" name="Mac" id="Mac" required />
+    </div>
+
+    <div>
+        <label for="SignalStrength1">Signal Strength to AP wiliboxas1</label>
+        <input type="number" name="SignalStrength1" id="SignalStrength1" required />
+    </div>
+
+    <div>
+        <label for="SignalStrength2">Signal Strength to AP wiliboxas2</label>
+        <input type="number" name="SignalStrength2" id="SignalStrength2" required />
+    </div>
+
+    <div>
+        <label for="SignalStrength3">Signal Strength to AP wiliboxas3</label>
+        <input type="number" name="SignalStrength3" id="SignalStrength3" required />
+    </div> 
+
+    <button type="submit">Estimate Location</button>
+</form>

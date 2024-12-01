@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MobileNotMobileSecondAttempt.Models.User>
+﻿@model IEnumerable<dynamic>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,14 +8,21 @@
     <title>User Location</title>
 </head>
 <body>
+
+    <div>
+        <a href="@Url.Content("~/Home/Index")">
+            <button>Go Home</button>
+        </a>
+    </div>
+
     <h1>Users</h1>
     <table border="1">
         <thead>
             <tr>
-                <th>User ID</th>
                 <th>MAC Address</th>
-                <th>Sensorius</th>
-                <th>Signal Strength</th>
+                <th>Distance to Wiliboxas1</th>
+                <th>Distance to Wiliboxas2</th>
+                <th>Distance to Wiliboxas3</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -23,10 +30,10 @@
             @foreach (var user in Model)
             {
                 <tr>
-                    <td>@user.Id</td>
                     <td>@user.Mac</td>
-                    <td>@user.Sensorius</td>
-                    <td>@user.Stiprumas</td>
+                    <td>@user.Wiliboxas1</td>
+                    <td>@user.Wiliboxas2</td>
+                    <td>@user.Wiliboxas3</td>
                     <td>
                         <a href="@Url.Action("Location", "User", new { macAddress = user.Mac })">
                             <button>Find Measurement</button>

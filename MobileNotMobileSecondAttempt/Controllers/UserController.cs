@@ -1,94 +1,48 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MobileNotMobileSecondAttempt.Models;
-using MobileNotMobileSecondAttempt.Data;
-using Microsoft.EntityFrameworkCore;
+using MobileNotMobileSecondAttempt.Services;
 
 public class UserController : Controller
 {
-    private readonly AppDbContext _context;
 
-    public UserController(AppDbContext context)
+    private readonly UserService _locationService;
+
+    public UserController(UserService locationService)
     {
-        _context = context;
+        _locationService = locationService ?? throw new ArgumentNullException(nameof(locationService));
     }
 
-    // GET: User/Index
     public async Task<IActionResult> Index()
     {
-        var users = await _context.Vartotojai.ToListAsync();
-        return View(users);
-    }
+        // Fetch all user data from the database
+        var users = await _locationService.GetAllUsersAsync();
 
-    // GET: User/Location/{macAddress}
-    public async Task<IActionResult> Location(string macAddress)
-    {
-        var user = await _context.Vartotojai
-            .Where(u => u.Mac == macAddress)
-            .FirstOrDefaultAsync();
-
-        if (user == null)
-        {
-            return NotFound();
-        }
-
-        // Here, you would call the method to get the user's measurement location.
-        // Assuming you already have a method to calculate the location:
-        var location = await GetUserLocation(macAddress);
-
-        return View(location);  // Show the location on a different view
-    }
-
-    // Add the method for calculating the user location based on their signal strength
-    private async Task<Measurement> GetUserLocation(string macAddress)
-    {
-        var userSignals = await _context.Vartotojai
-            .Where(u => u.Mac == macAddress)
-            .ToListAsync();
-
-        // Retrieve measurements and strengths, and find the nearest point as described earlier
-        var measurements = await _context.Measurements.ToListAsync();
-        var strengths = await _context.Stiprumai.ToListAsync();
-
-        var nearestMeasurement = FindNearestPoint(userSignals, measurements, strengths);
-
-        return nearestMeasurement;
-    }
-
-    private Measurement FindNearestPoint(List<User> userSignals, List<Measurement> measurements, List<Strength> strengths)
-    {
-        Measurement nearestMeasurement = null;
-        double minDistance = double.MaxValue;
-
-        foreach (var measurement in measurements)
-        {
-            var measurementStrengths = strengths.Where(s => s.Matavimas == measurement.Matavimas).ToList();
-            double distance = CalculateDistance(userSignals, measurementStrengths);
-
-            if (distance < minDistance)
+        // Group data by MAC address
+        var groupedData = users
+            .GroupBy(user => user.Mac)
+            .Select(group => new
             {
-                minDistance = distance;
-                nearestMeasurement = measurement;
-            }
-        }
+                Mac = group.Key,
+                Wiliboxas1 = group.FirstOrDefault(u => u.Sensorius == "wiliboxas1")?.Stiprumas ?? 404,
+                Wiliboxas2 = group.FirstOrDefault(u => u.Sensorius == "wiliboxas2")?.Stiprumas ?? 404,
+                Wiliboxas3 = group.FirstOrDefault(u => u.Sensorius == "wiliboxas3")?.Stiprumas ?? 404
+            })
+            .ToList();
 
-        return nearestMeasurement;
+        // Pass the grouped data to the view
+        return View(groupedData);
     }
 
-    private double CalculateDistance(List<User> userSignals, List<Strength> measurementStrengths)
+   public async Task<IActionResult> Location(string macAddress)
+{
+    var locationResult = await _locationService.GetLocationForUserAsync(macAddress);
+
+    if (locationResult == null)
     {
-        double distance = 0;
-
-        foreach (var userSignal in userSignals)
-        {
-            var matchingMeasurementStrength = measurementStrengths
-                .FirstOrDefault(s => s.Sensorius == userSignal.Sensorius);
-
-            if (matchingMeasurementStrength != null)
-            {
-                distance += Math.Pow(userSignal.Stiprumas - matchingMeasurementStrength.Stiprumas, 2);
-            }
-        }
-
-        return Math.Sqrt(distance);  // Euclidean distance
+        return NotFound();
     }
+
+        return View("~/Views/Shared/Location.cshtml", locationResult);
+    }
+
 }

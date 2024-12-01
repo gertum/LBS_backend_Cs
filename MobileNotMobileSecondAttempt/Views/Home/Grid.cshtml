@@ -4,7 +4,16 @@
 
 <h2>Measurement Grid</h2>
 
+<div>
+    <a href="@Url.Content("~/Home/Index")">
+        <button>Go Home</button>
+    </a>
+</div>
+
+
 <div id="grid-container"></div>
+
+
 
 <script>
     // Fetch data from the API
@@ -15,6 +24,10 @@
                 throw new Error('Failed to fetch grid data.');
             }
             const data = await response.json();
+
+            console.log('Fetched Data:', data);
+
+
             renderGrid(data);
         } catch (error) {
             console.error('Error fetching grid data:', error);
@@ -29,33 +42,49 @@
         const allXValues = new Set();
 
         // Collect all X values
-        yKeys.forEach(y => data[y].forEach(x => allXValues.add(x)));
+        yKeys.forEach(y => data[y].forEach(m => allXValues.add(m.x)));
         const xKeys = Array.from(allXValues).sort((a, b) => a - b); // Sorted X-axis values
 
+        // Collect all Measurement values
+        // yKeys.forEach(y => data[y].forEach(m => allXValues.add(m.Matavimas)));
+        // const mKeys = Array.from(allXValues).sort((a, b) => a - b); Sorted X-axis values
+
         // Build table
-        let tableHtml = '<table border="1" style="border-collapse: collapse; text-align: center;">';
+    let tableHtml = '<table border="1" style="border-collapse: collapse; text-align: center;">';
 
-        // Header Row: Top X-axis labels
-        tableHtml += '<thead><tr><th></th>'; // Empty top-left corner
+    // Header Row: Top X-axis labels
+    tableHtml += '<thead><tr><th></th>'; // Empty top-left corner
+    xKeys.forEach(x => {
+        tableHtml += `<th>${x}</th>`;
+    });
+    tableHtml += '</tr></thead><tbody>';
+
+    // Build table rows
+    yKeys.forEach(y => {
+        tableHtml += `<tr><th>${y}</th>`; // Left Y-axis label
+
         xKeys.forEach(x => {
-            tableHtml += `<th>${x}</th>`;
-        });
-        tableHtml += '</tr></thead><tbody>';
+            // Find the data point for the current X and Y
+            const point = data[y].find(m => m.x === x);
+            const cellValue = point ? 1 : 0;
+            const matavimas = point ? `m: ${point.matavimas}` : ''; // Measurement if exists
 
-        // Build table rows
-        yKeys.forEach(y => {
-            tableHtml += `<tr><th>${y}</th>`; // Left Y-axis label
-                xKeys.forEach(x => {
-        const cellValue = data[y].includes(x) ? 1 : 0;
-        const cellColor = cellValue === 1 ? 'green' : 'red';
-        tableHtml += `<td style="color: ${cellColor}; font-weight: bold;">${cellValue}</td>`;
+            // Determine cell color based on value
+            const cellColor = cellValue === 1 ? 'green' : 'red';
+
+            // Build the table cell
+            tableHtml += `
+                <td style="background-color: ${cellColor}; font-weight: bold; color: white;">
+                    ${cellValue}<br>
+                    <span style="font-size: 10px; color: black;">${matavimas}</span>
+                </td>`;
+        });
+
+        tableHtml += '</tr>';
     });
 
-            tableHtml += '</tr>';
-        });
-
-        tableHtml += '</tbody></table>';
-        gridContainer.innerHTML = tableHtml;
+    tableHtml += '</tbody></table>';
+    gridContainer.innerHTML = tableHtml;
     }
 
     // Load the grid on page load

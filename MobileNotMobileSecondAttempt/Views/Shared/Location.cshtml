@@ -1,0 +1,93 @@
+﻿@model MobileNotMobileSecondAttempt.Models.LocationResultViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Location</title>
+</head>
+<body>
+    <h1>User Measurement Location</h1>
+
+    <div>
+        <a href="@Url.Content("~/Home/Index")">
+            <button>Go Home</button>
+        </a>
+    </div>
+
+    @if (Model.EstimatedLocation != null)
+    {
+        <h2>Location Information</h2>
+        <p>Measurement ID: @Model.EstimatedLocation.Matavimas</p>
+        <p>X: @Model.EstimatedLocation.X</p>
+        <p>Y: @Model.EstimatedLocation.Y</p>
+        <p>Atstumas (Dj): @Model.EuclideanDistance</p>
+    }
+    else
+    {
+        <p>No location found for this user.</p>
+    }
+
+    <h2>Measurement Grid</h2>
+
+
+
+
+
+    <div id="grid-container">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th></th>
+                    @if (Model.MeasurementGrid.Any())
+                    {
+                        var allXValues = Model.MeasurementGrid.Values
+                        .SelectMany(list => list)
+                        .Select(m => m.X)
+                        .Distinct()
+                        .OrderBy(x => x);
+
+                        foreach (var x in allXValues)
+                        {
+                            <th>@x</th>
+                        }
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var y in Model.MeasurementGrid.Keys.OrderBy(y => y))
+                {
+                    <tr>
+                        <th>@y</th>
+                        @foreach (var x in Model.MeasurementGrid.Values.SelectMany(list => list).Select(m => m.X).Distinct().OrderBy(x => x))
+                        {
+                            var point = Model.MeasurementGrid[y].FirstOrDefault(m => m.X == x);
+                            var cellValue = point != null ? 1 : 0;
+
+                            // Set the default color to red (when cellValue is 0)
+                            var cellColor = cellValue == 1 ? "green" : "red";
+
+                            // If point.Matavimas matches the EstimatedLocation.Matavimas, make the cell purple
+                            if (point != null && point.Matavimas == Model.EstimatedLocation.Matavimas)
+                            {
+                                cellColor = "purple";
+                            }
+
+                            var matavimas = point != null ? $"m: {point.Matavimas}" : "";
+
+                            <td style="background-color: @cellColor; color: white;">
+                                @cellValue<br />
+                                <span style="font-size: 10px; color: black;">@matavimas</span>
+                            </td>
+                        }
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <a href="@Url.Action("Index", "User")">Back to User List</a>
+</body>
+</html>

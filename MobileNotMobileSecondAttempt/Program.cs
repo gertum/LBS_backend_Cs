@@ -1,6 +1,7 @@
 using MySql.Data.MySqlClient;
 using Microsoft.EntityFrameworkCore;
 using MobileNotMobileSecondAttempt.Data; // Replace with your actual namespace
+using MobileNotMobileSecondAttempt.Services; // Replace with the namespace where LocationService resides
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,9 @@ catch (Exception ex)
 // Register AppDbContext for Entity Framework Core
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 31)))); // Adjust MySQL version as needed
+
+// Register LocationService for dependency injection
+builder.Services.AddScoped<UserService>();
 
 var app = builder.Build();
 
