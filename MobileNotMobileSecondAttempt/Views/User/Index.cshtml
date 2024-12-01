@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MobileNotMobileSecondAttempt.Models.User>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Location</title>
+</head>
+<body>
+    <h1>Users</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>MAC Address</th>
+                <th>Sensorius</th>
+                <th>Signal Strength</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Mac</td>
+                    <td>@user.Sensorius</td>
+                    <td>@user.Stiprumas</td>
+                    <td>
+                        <a href="@Url.Action("Location", "User", new { macAddress = user.Mac })">
+                            <button>Find Measurement</button>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

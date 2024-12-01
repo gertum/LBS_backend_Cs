@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Measurement Grid";
+}
+
+<h2>Measurement Grid</h2>
+
+<div id="grid-container"></div>
+
+<script>
+    // Fetch data from the API
+    async function fetchGridData() {
+        try {
+            const response = await fetch('/api/Data/Grid');
+            if (!response.ok) {
+                throw new Error('Failed to fetch grid data.');
+            }
+            const data = await response.json();
+            renderGrid(data);
+        } catch (error) {
+            console.error('Error fetching grid data:', error);
+            document.getElementById('grid-container').innerText = 'Error loading grid.';
+        }
+    }
+
+    // Render the grid as a table
+    function renderGrid(data) {
+        const gridContainer = document.getElementById('grid-container');
+        const yKeys = Object.keys(data).map(Number).sort((a, b) => a - b); // Sorted Y-axis keys
+        const allXValues = new Set();
+
+        // Collect all X values
+        yKeys.forEach(y => data[y].forEach(x => allXValues.add(x)));
+        const xKeys = Array.from(allXValues).sort((a, b) => a - b); // Sorted X-axis values
+
+        // Build table
+        let tableHtml = '<table border="1" style="border-collapse: collapse; text-align: center;">';
+
+        // Header Row: Top X-axis labels
+        tableHtml += '<thead><tr><th></th>'; // Empty top-left corner
+        xKeys.forEach(x => {
+            tableHtml += `<th>${x}</th>`;
+        });
+        tableHtml += '</tr></thead><tbody>';
+
+        // Build table rows
+        yKeys.forEach(y => {
+            tableHtml += `<tr><th>${y}</th>`; // Left Y-axis label
+                xKeys.forEach(x => {
+        const cellValue = data[y].includes(x) ? 1 : 0;
+        const cellColor = cellValue === 1 ? 'green' : 'red';
+        tableHtml += `<td style="color: ${cellColor}; font-weight: bold;">${cellValue}</td>`;
+    });
+
+            tableHtml += '</tr>';
+        });
+
+        tableHtml += '</tbody></table>';
+        gridContainer.innerHTML = tableHtml;
+    }
+
+    // Load the grid on page load
+    fetchGridData();
+</script>

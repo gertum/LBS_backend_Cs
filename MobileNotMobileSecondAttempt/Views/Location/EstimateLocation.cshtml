@@ -1,0 +1,18 @@
+﻿@model MobileNotMobileSecondAttempt.Models.LocationRequest
+
+<h3>Enter MAC Address and Signal Strengths</h3>
+
+<form method="post" action="@Url.Action("EstimateLocation", "Location")">
+    <div>
+        <label for="Mac">MAC Address</label>
+        <input type="text" name="Mac" id="Mac" required />
+    </div>
+
+    <div>
+        <label for="SignalStrengths">Signal Strengths (comma separated)</label>
+        <input type="text" name="SignalStrengths" id="SignalStrengths" required />
+        <small>Example: 20, 15, 30, 25</small>
+    </div>
+
+    <button type="submit">Estimate Location</button>
+</form>

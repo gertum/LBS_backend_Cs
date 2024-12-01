@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\views\\location\\locationresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\views\\location\\locationresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\views\\user\\location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\views\\user\\location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\views\\location\\estimatelocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\views\\location\\estimatelocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\models\\strength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\models\\strength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\models\\measurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\models\\measurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\models\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\models\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\views\\home\\grid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\views\\home\\grid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|c:\\users\\gerda\\source\\repos\\mobilesystemsnotsomobilefirstproject\\mobilenotmobilesecondattempt\\mobilenotmobilesecondattempt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C4F38B5-F5E7-4C89-AB3D-9339EF20C5A3}|MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj|solutionrelative:mobilenotmobilesecondattempt\\mobilenotmobilesecondattempt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocationResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Location\\LocationResult.cshtml",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Views\\Location\\LocationResult.cshtml",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Location\\LocationResult.cshtml",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Views\\Location\\LocationResult.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T07:20:47.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EstimateLocation.cshtml",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Location\\EstimateLocation.cshtml",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Views\\Location\\EstimateLocation.cshtml",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Location\\EstimateLocation.cshtml",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Views\\Location\\EstimateLocation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:58:10.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Controllers\\LocationController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:47:04.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\LocationRequest.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Models\\LocationRequest.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\LocationRequest.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Models\\LocationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:46:35.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Location.cshtml",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\User\\Location.cshtml",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Views\\User\\Location.cshtml",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\User\\Location.cshtml",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Views\\User\\Location.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T05:30:18.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T05:29:48.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:28:43.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T07:12:24.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataController.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\DataController.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Controllers\\DataController.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\DataController.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Controllers\\DataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:00:49.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Program.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Program.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Program.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:09:12.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:11:06.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\User.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:03:00.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Measurement.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\Measurement.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Models\\Measurement.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\Measurement.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Models\\Measurement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T12:49:28.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Strength.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\Strength.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Models\\Strength.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Models\\Strength.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Models\\Strength.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:00:39.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Grid.cshtml",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Home\\Grid.cshtml",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Views\\Home\\Grid.cshtml",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Views\\Home\\Grid.cshtml",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Views\\Home\\Grid.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T03:53:39.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T12:55:03.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MobileNotMobileSecondAttempt.csproj",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\MobileNotMobileSecondAttempt.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-16T10:09:59.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\appsettings.json",
+              "RelativeDocumentMoniker": "MobileNotMobileSecondAttempt\\appsettings.json",
+              "ToolTip": "C:\\Users\\gerda\\source\\repos\\MobileSystemsNotSoMobileFirstProject\\MobileNotMobileSecondAttempt\\appsettings.json",
+              "RelativeToolTip": "MobileNotMobileSecondAttempt\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T10:08:57.032Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
